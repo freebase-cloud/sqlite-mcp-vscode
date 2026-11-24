@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "freebase-token",
+      "description": "Freebase MCP token",
+      "password": true
+    }
+  ],
+  "servers": {
+    "freebase": {
+      "type": "http",
+      "url": "https://freebase.cloud/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:freebase-token}"
+      }
+    }
+  }
+}

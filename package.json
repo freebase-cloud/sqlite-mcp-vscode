@@ -1,0 +1,18 @@
+{
+  "name": "sqlite-mcp-vscode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "sqlite hosted MCP discovery and bounded reads with the Freebase VS Code extension.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/mcp-demo.mjs",
+    "test": "node --test",
+    "demo": "node --env-file=.env src/demo.mjs",
+    "mcp": "node --env-file=.env src/mcp-demo.mjs",
+    "preview": "node src/demo.mjs"
+  }
+}

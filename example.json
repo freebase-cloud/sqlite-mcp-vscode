@@ -1,0 +1,6 @@
+{
+  "name": "sqlite-mcp-vscode",
+  "engine": "sqlite",
+  "slug": "sqlite",
+  "kind": "mcp"
+}

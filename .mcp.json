@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "freebase": {
+      "type": "http",
+      "url": "https://freebase.cloud/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FREEBASE_MCP_TOKEN}"
+      },
+      "tools": [
+        "example_list_tables"
+      ]
+    }
+  }
+}
